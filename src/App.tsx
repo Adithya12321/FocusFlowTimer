@@ -35,7 +35,7 @@ function App() {
       {/* About Modal */}
       <AboutModal isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
       {/* <iframe className='fixed bottom-0 w-80 h-30' style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/37i9dQZF1DWYoYGBbGKurt?utm_source=generator&theme=0" width="100%" height="50" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
-      <iframe className='absolute bottom-0 left-0 border border-white rounded-2xl sm:w-60 ' width="160" height="100*2" src="https://www.youtube.com/embed/R-bI0AhSyU0?si=94JNSnNc5mp1038r" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe className='absolute bottom-0 left-0 border border-white rounded-2xl sm:w-60 ' width="160" height="100*2" src="https://www.youtube.com/embed/R-bI0AhSyU0?si=94JNSnNc5mp1038r" title="YouTube video player" frameBorder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
     </div>
   )
 }

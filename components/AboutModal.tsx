@@ -30,6 +30,14 @@ const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
         <p className="text-sm leading-6 mb-4">
           The background particle effects and overall design aim to create a calming and focused environment for productivity.
         </p>
+
+        {/* About Me Section */}
+        <h3 className="text-lg font-semibold mt-4 mb-2">About Me</h3>
+        <p className="text-sm leading-6 mb-4">
+          My name is <span className="font-bold">Adithya Venkatesh Pithani</span>. I am a passionate web developer with a focus on creating interactive and user-friendly applications. This project is a reflection of my dedication to building tools that enhance productivity and provide a seamless user experience.
+        </p>
+
+        {/* Credits Section */}
         <h3 className="text-lg font-semibold mt-4 mb-2">Credits</h3>
         <ul className="list-disc list-inside text-sm leading-6">
           <li>
@@ -42,6 +50,11 @@ const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
             Particle Effects: Custom implementation using React.
           </li>
         </ul>
+
+        {/* Copyright Section */}
+        <p className="text-sm leading-6 mt-6 text-center">
+          &copy; {new Date().getFullYear()} Adithya Venkatesh Pithani. All rights reserved.
+        </p>
       </div>
     </div>
   );
